@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    --cor-primaria-cyan: #5FB4A2;
+    --cor-primaria-dark-blue: #203A4C;
+    --cor-primaria-grayish-dark-blue: #33323D;
+    --cor-secundaria-very-light-grey: #FAFAFA;
+    --cor-secundaria-light-grey: #EAEAEB;
+
+    --fonte-ibarra-real-nova: 'Ibarra Real Nova', serif;
+    --fonte-public-sans: 'Public Sans', sans-serif;
+
+    --tamanho-h1: 50px;
+    --tamanho-h2: 40px;
+}
+

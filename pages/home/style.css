@@ -1,0 +1,289 @@
+header {
+    margin: 64px 164px 54px 164px;
+}
+
+h1 {
+    font-family: var(--fonte-ibarra-real-nova);
+    font-size: var(--tamanho-h1);
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+
+    align-items: left;
+    vertical-align: top;
+    
+
+    margin: 56px 28px 53px 27px;
+
+    color: var(--cor-primaria-grayish-dark-blue);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    margin: 64px 0 54px 163px;
+
+    max-width: 1111px;
+}
+
+ul {
+    display: flex;
+    align-items: baseline;
+   
+    list-style: none; 
+}
+
+a {
+    color: var(--cor-primaria-grayish-dark-blue);
+
+    border: 1px solid var(--cor-primaria-grayish-dark-blue); 
+    
+    font-family: var(--fonte-public-sans);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.1px;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    color: #FAFAFA;
+    background-color: var(--cor-primaria-grayish-dark-blue);
+}
+
+footer {
+    max-height: 314px;
+}
+
+/*                         
+    HEADER
+*/
+
+.menu__cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: 1110px;
+    max-height: 32px;
+
+    margin: 0px auto;
+}
+
+.menu__header li{
+    margin-left: 43px;
+}
+
+.li__home {
+    color: var(--cor-primaria-cyan);
+}
+
+/*
+    HERO SECTION
+*/
+
+.imagem__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+    
+    width: 1110px;
+    height: 600px;
+
+    margin: 0px auto;
+}
+
+.h1__imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    width: 445px;
+    height: 357px;
+
+    background-color: var(--cor-secundaria-very-light-grey);
+}
+
+.btn {
+    border: none;
+
+    width: 200px;
+    height: 48px;
+    
+    background-image: url(../../assets/btn.svg);
+    background-size: cover;
+}
+
+
+.btn:hover {
+    background-image: url(../../assets/btn-hover.svg);
+    background-size: cover;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1110px;
+}
+
+.titulo img {
+    max-width: 540px;
+    max-height: 600px;
+}
+
+/*
+    SOBRE SECTION
+*/
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 150px auto;   
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+
+    border-top: 1px solid #33323d2c;
+    border-bottom: 1px solid #33323d2c;
+}
+
+.paragrafo p {
+    font-family: var(--fonte-public-sans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    opacity: 80%;
+    color: var(--cor-primaria-grayish-dark-blue);
+
+    margin: 28px 0px 28px 0px;
+
+    max-width: 430px;
+    max-height: 360px;
+}
+
+div .paragrafo {
+    width: 570px;
+    height: 601px;
+    
+    margin-left: 140px;
+}
+
+.paragrafo h2 {
+    font-family: var(--fonte-ibarra-real-nova);
+    font-size: var(--tamanho-h2);
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+
+    margin-top: 51px;
+
+    color: var(--cor-primaria-grayish-dark-blue);
+}
+
+.paragrafo a {
+    padding: 17px 26px;
+    margin-left: 113px;
+
+    width: 204px;
+    height: 48px;
+}
+
+
+/*
+    CONTATO SECTION
+*/
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: var(--fonte-ibarra-real-nova);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+
+    color: var(--cor-primaria-grayish-dark-blue);
+
+    width: 1110px;
+    height: 84px;
+
+    margin: 0 auto 150px;
+}
+
+.contato h2 {
+    width: 367px;
+    height: 84px;
+    
+    font-size: 40px;
+}
+
+.contato a {
+    font-size: 12px;
+
+    width: 168px;
+    height: 48px;
+
+    padding: 17px 50px;
+}
+
+
+/*
+    FOOTER
+*/
+
+.dark__background {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    background-color: var(--cor-primaria-grayish-dark-blue);
+
+    height: 80px;
+}
+
+.menu {
+    font-family: var(--fonte-public-sans);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.1px;
+    
+    color: #FFF;
+}
+
+.menu__footer {
+    display: flex;
+    align-items: center;
+}
+
+.menu__footer li {
+    margin-right: 43px;
+}
+
+.menu__footer img {
+    margin: 24px 48px 24px 165px;
+}
+
+.icones__sociais {
+    margin: 28px 165px 28px 588px;
+}
+
+.icones__sociais img {
+    margin-right: 16px;
+}
+
+
